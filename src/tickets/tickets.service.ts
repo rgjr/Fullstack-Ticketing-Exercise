@@ -17,6 +17,9 @@ export class TicketsService {
   update(id: number, updateTicketDto: UpdateTicketDto) {
     console.log(updateTicketDto);
 
-    return `This action updates a #${id} ticket`;
+    return this.prisma.ticket.update({
+      where: { id },
+      data: updateTicketDto,
+    });
   }
 }
