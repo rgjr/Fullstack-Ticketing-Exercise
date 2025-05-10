@@ -19,7 +19,7 @@ async function main() {
     data: {
       customerName: 'John Doe',
       email: 'john.doe@email.com',
-      status: 'open',
+      status: 'pending',
       notes: '',
     },
   });
