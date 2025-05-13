@@ -22,6 +22,12 @@ Seed Prisma data inside `/server`
 npx prisma db seed
 ```
 
+Run project
+
+```
+npm run start:dev
+```
+
 ## /client
 
 Use npm to install
